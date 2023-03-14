@@ -20,7 +20,8 @@ k = float(63)
 
 ###
 #print(stats.binom.ppf(0.05, 31000, 0.00203))
-# print(stats.binom.cdf(39, 31000, 0.002))  # p-value calc
+print(stats.binom.cdf(39, 31000, 0.002))  # p-value calc
+print(stats.poisson.sf(39, mu=63))  # p-value calc
 """
 https://discovery.cs.illinois.edu/learn/Polling-Confidence-Intervals-and-Hypothesis-Testing/Python-Functions-for-Random-Distributions/
 PPF: Probability Point Function
